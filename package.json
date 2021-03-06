@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-node",
+  "version": "1.0.0",
+  "description": "using external package for practicing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tylerflx/Intro-to-node.git"
+  },
+  "author": "Tyler Nguyen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tylerflx/Intro-to-node/issues"
+  },
+  "homepage": "https://github.com/Tylerflx/Intro-to-node#readme",
+  "dependencies": {
+    "superheroes": "^3.0.0",
+    "supervillains": "^3.0.0"
+  }
+}

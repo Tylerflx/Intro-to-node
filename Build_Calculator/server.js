@@ -38,8 +38,6 @@ app.post("/bmicalculator", function(req, res){
 });
 
 
-
-
 app.listen(3000, function(){
   console.log("Listen on port 3000");
 });

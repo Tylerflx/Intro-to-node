@@ -31,12 +31,12 @@ app.post("/", function(req, res){
   }
   //convert js to string
   const jsonData = JSON.stringify(data);
-
-  const url = "https://us1.api.mailchimp.com/3.0/lists/add950090c";
-
+  //endpoint api url
+  const url = "https://{API-SERVER}.api.mailchimp.com/3.0/lists/{LIST-ID}";
+  //info data
   const options = {
     method: "POST",
-    auth:"tyler:6b468c74401bd627127c5e9ee20c4f71-us1"
+    auth:"{STRING-NAME}:{API-KEY}"
   };
   //make request
   const request = https.request(url, options, function(response){
